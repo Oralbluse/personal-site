@@ -1,0 +1,155 @@
+/*********************TAG-SELECTORS*************************/
+body {
+    background-color:rgb(203, 211, 212);
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+h1 {
+    font-size: 5em;
+    color: rgb(103, 210, 178);  
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 200%;
+}
+p{
+    font-size: 1.25em;
+}
+div {
+    display: block;
+    padding: 0%;
+}
+hr {
+    border-color: black;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+ }
+ table {
+    margin-left: auto;
+    margin-right: auto;
+ }
+/*******************CLASS-SELECTORS**************************/
+.myname{
+    background-color: rgb(65, 121, 152);
+    text-align: center;
+    border: solid; border-width: 10%;
+    border-left: 0px; border-right: 0px;
+    padding-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.second-top-header {
+    padding-bottom: 4%;
+    color: aqua; font-size: large;
+    font-weight: bold; font-size: 200%;
+    line-height: 1;
+}
+.heading-text{
+    color: rgb(103, 210, 178);
+}
+.top-container {
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+}
+.middle-container {
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.contact-me {
+    margin-top: -1%;
+    margin-bottom: 4%;
+    padding: 2%;
+    text-align: center;
+}
+.bottom-container {
+    background-color: #66BFBF;
+    display: block;
+    margin-bottom: 0;
+    border-bottom: 2%;
+    overflow: hidden;
+}
+.social-buttons {
+    color: #11999E;
+    margin-top: 2%;
+    margin-left: 15px;
+    margin-right: auto;
+    display: inline-block;
+}
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+.some-guy-img{
+    width: 150px;
+    border: solid;
+    border-radius:  25px;
+    display: block;
+    margin-right: 30px;
+    float: left;
+}
+.skills-guy-img {
+    width: 190px;
+    height: 190px;
+    display: block;
+    float: left;
+    margin-right: 30px;
+    padding: 20px;
+}
+.skills-img {
+    width: auto;
+    height: 150px;
+    display: block;
+    float: right;
+    margin-right: 30px;
+    padding: 20px;
+}
+.profile {
+    padding: 2%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skill-row {
+    overflow: hidden;
+    padding: 2%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+/**********************ID-SELECTORS**************************/
